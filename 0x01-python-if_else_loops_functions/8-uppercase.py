@@ -2,9 +2,10 @@
 def uppercase(str):
     for alphabet in str:
         low = ord(alphabet)
+        jb = chr(ord(alphabet) - 32)
+
         if low >= 97 and low <= 123:
-            print(chr(ord(alphabet) - 32), end="")
+            print("{}".format(jb), end="")
         else:
-            print(alphabet, end="")
-    print("")
+            print("{}".format(alphabet), end="")
                                                                           
