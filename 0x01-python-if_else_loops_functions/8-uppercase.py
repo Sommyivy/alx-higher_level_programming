@@ -6,5 +6,5 @@ def uppercase(str):
             num = 32
         else:
             num = 0
-        print("{}".format(chr(low - 32)), end="")
+        print("{}".format(chr(low - num)), end="")
     print("")
