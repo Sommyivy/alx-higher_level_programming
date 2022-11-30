@@ -1,4 +1,4 @@
-#!/usr/bin/phynon3
+#!/usr/bin/python3
 def uppercase(str):
     for alphabet in str:
         low = ord(alphabet)
