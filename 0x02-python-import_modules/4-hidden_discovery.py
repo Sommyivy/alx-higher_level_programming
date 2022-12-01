@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
     import hidden_4
-    for names in dir(hidden_4):
-        if name.start("_"):
+    for name in dir(hidden_4):
+        if name.startswith("_"):
             break
         else:
-            print("{}".formant(name))
+            print((name))
