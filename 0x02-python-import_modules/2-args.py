@@ -12,5 +12,4 @@ if __name__ == "__main__":
     for item in my_list:
         indx = my_list.index(item)
         if indx != 0:
-            print("{}: {}".format(int(indx), item))
-                        
+            print("{}: {}".format(int(indx), item))             
