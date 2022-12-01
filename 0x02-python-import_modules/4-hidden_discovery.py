@@ -2,6 +2,7 @@
 if __name__ == "__main__":
     import hidden_4
     for s in dir(hidden_4):
-        h = s.startswith('_')
-        if s != h:
+        if s.startswith("_"):
+            h = 1
+        else:
             print(s)
