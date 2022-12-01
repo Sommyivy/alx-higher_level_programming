@@ -2,7 +2,7 @@
 if __name__ == "__main__":
     import sys
     my_list = sys.argv
-    jb = len(my_list)-1
+    jb = len(my_list) - 1
     if jb == 1:
         print("{} argument:".format(int(jb)))
     elif jb == 0:
