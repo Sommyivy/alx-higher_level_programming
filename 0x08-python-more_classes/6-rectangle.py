@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ initializing the call"""
 
+number_of_instances = 0
 
 class Rectangle:
     """ Defining Rectangle"""
@@ -9,6 +10,7 @@ class Rectangle:
 
         """ defining a new rectangle"""
 
+        type(self).number_of_instances += 1
         self.width = width
         self.height = height
 
@@ -76,4 +78,5 @@ class Rectangle:
     def __del__(self):
         """print massage when ever a rectangle is deleted"""
 
+        type(self).number_of_instances -= 1
         print("Bye rectangle...")
